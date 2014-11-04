@@ -1,0 +1,12 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #ffffff;
+	background-color: #333333;
+}
+
+a:link {color: #ffffff;}
+a:visited {color: #ffffff;}
+a:active {color: #ffffff;}
+a {text-decoration: none;}
