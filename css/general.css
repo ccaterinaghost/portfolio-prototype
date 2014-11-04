@@ -24,6 +24,20 @@ a:link {
 	color: #ffffff;
 	padding: 15px;
 }
-a:visited {color: #ffffff;}
-a:active {color: #ffffff;}
-a {text-decoration: none;}
+a:visited {
+	color: #ffffff;
+}
+a:active {
+	color: orange;
+}
+a {
+	text-decoration: none;
+}
+
+.about-par{
+	position: absolute;
+	width: 250px;
+	height: 600px;
+	margin-top: 850px;
+	margin-left: 25px;
+}
