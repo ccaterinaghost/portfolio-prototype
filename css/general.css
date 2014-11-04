@@ -6,7 +6,16 @@ body {
 	background-color: #333333;
 }
 
+h1{
+	width: 300px;
+	margin-top: 455px;
+	margin-left: 25px;
+	float: left;
+}
+
 .Links{
+	width: 225px;
+	margin-top: 730px;
 	margin-right: 25px;
 	float: right;
 }
