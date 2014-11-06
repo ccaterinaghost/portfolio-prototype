@@ -8,6 +8,7 @@ body {
 
 .logosection {
 	padding: 25em 0 25em;
+	overflow: hidden;
 }
 
 h1 {
@@ -36,18 +37,19 @@ h1 {
 	}
 }
 
-.Links {
+.links {
 	width: 225px;
 	margin-top: 300px;
 	margin-right: 25px;
 	float: right;
 	position: relative;
+	display: block;
 }
 
 .js-links-move {
-	x-webkit-animation: link-move 1s linear forwards;
+	x-webkit-animation: links-move 1s linear forwards;
 	position: fixed;
-	top: -200px;
+	top: 50px;
 }
 
 @-webkit-keyframes links-move {
@@ -90,9 +92,7 @@ a {
 .contact {
 	padding: 19em 0 19em;
 	width: 100%;
-	position: absolute;
-    right: 0px;
-    width: 800px;
+
 }
 
 .icons {
