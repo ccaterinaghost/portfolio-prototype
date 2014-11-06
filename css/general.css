@@ -16,12 +16,12 @@ h1 {
 	float: left;
 }
 
-.logon {
+.logo {
 	position: relative;
 }
 
 .js-logo-move {
-	x-webkit-animation: logo-move 1s linear forwards;
+	x-webkit-animation: logo-move 500ms linear forwards;
 	position: fixed;
 	top: -200px;
 }
@@ -75,12 +75,27 @@ a {
 }
 
 .about-par{
-	min-height: 600px;
-	position: absolute;
+	position: relative;
 	width: 250px;
 	margin-left: 25px;
+	padding: 10em 0 10em;
 }
 
-.por{
+.portfolio {
+	padding: 2em 0 2em;
+	position: relative;
+	margin-left: 15px;	
+}
+
+.contact {
+	padding: 19em 0 19em;
+	width: 100%;
 	position: absolute;
+    right: 0px;
+    width: 800px;
+}
+
+.icons {
+	border-radius: 200px;
+	position: relative;
 }

@@ -12,11 +12,4 @@ $about.waypoint(function (direction) {
 	}
 }, {offset: '70%'});
 
-$about.waypoint(function (direction) {
-	if (direction == 'down') {
-		$links.addClass('js-links-move');
-	} else {
-		$links.removeClass('js-links-move');
-	}
-}, {offset: '70%'});
 
