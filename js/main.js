@@ -16,7 +16,7 @@ $about.waypoint(function (direction) {
 	if (direction == 'down') {
 		$links.addClass('js-links-move');
 	} else {
-		$logo.removeClass('js-links-move');
+		$links.removeClass('js-links-move');
 	}
 }, {offset: '70%'});
 
