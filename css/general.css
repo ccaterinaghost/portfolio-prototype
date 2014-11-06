@@ -21,7 +21,9 @@ h1 {
 }
 
 .js-logo-move {
-	-webkit-animation: logo-move 1s linear forwards;
+	x-webkit-animation: logo-move 1s linear forwards;
+	position: fixed;
+	top: -200px;
 }
 
 @-webkit-keyframes logo-move {
@@ -34,12 +36,28 @@ h1 {
 	}
 }
 
-
 .Links {
 	width: 225px;
 	margin-top: 300px;
 	margin-right: 25px;
 	float: right;
+	position: relative;
+}
+
+.js-links-move {
+	x-webkit-animation: link-move 1s linear forwards;
+	position: fixed;
+	top: -200px;
+}
+
+@-webkit-keyframes links-move {
+	0% {
+		top: 5em;
+	}
+
+	100% {
+		top: 50px;
+	}
 }
 
 a:link {
@@ -57,9 +75,12 @@ a {
 }
 
 .about-par{
+	min-height: 600px;
 	position: absolute;
 	width: 250px;
-	height: 600px;
-	margin-top: 850px;
 	margin-left: 25px;
+}
+
+.por{
+	position: absolute;
 }

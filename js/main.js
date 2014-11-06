@@ -1,7 +1,22 @@
 var $win = $('window');
 var $logo = $('.logo');
-var $logosection = $('logosection')
+var $about = $('.about')
+var $links = $('.links');
+var $portfolio = $('.portfolio')
 
-$logosection.waypoint(function () {
-	$logo.addClass('js-logo-move');
-}, {offset: '10%'});
+$about.waypoint(function (direction) {
+	if (direction == 'down') {
+		$logo.addClass('js-logo-move');
+	} else {
+		$logo.removeClass('js-logo-move');
+	}
+}, {offset: '70%'});
+
+$about.waypoint(function (direction) {
+	if (direction == 'down') {
+		$links.addClass('js-links-move');
+	} else {
+		$logo.removeClass('js-links-move');
+	}
+}, {offset: '70%'});
+
