@@ -1,10 +1,7 @@
 var $win = $('window');
 var $logo = $('.logo');
+var $logosection = $('logosection')
 
-
-
-$win.on('scroll', function () {
-	var scrollPos = $win.scrollTop();
-
-	$logo.css('background-position', 'center ' + scrollPos / 2 + 'px');
-});
+$logosection.waypoint(function () {
+	$logo.addClass('js-logo-move');
+}, {offset: '10%'});
