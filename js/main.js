@@ -1,5 +1,5 @@
 var $win = $('window');
-var $logo = $('.logo');
+var $logo = $('.logosection');
 var $about = $('.about');
 var $links = $('.links');
 var $portfolio = $('.portfolio')

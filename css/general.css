@@ -8,6 +8,7 @@ body {
 .logosection {
 	padding: 25em 0 25em;
 	background-color: #222222;
+	width: 100%;
 }
 
 h1 {
@@ -21,18 +22,18 @@ h1 {
 }
 
 .js-logo-move {
-	x-webkit-animation: logo-move 500ms linear forwards;
+	x-webkit-animation: logo-move 1s linear forwards;
 	position: fixed;
-	top: -200px;
+	top: -600px;
 }
 
 @-webkit-keyframes logo-move {
 	0% {
-		top: 5em;
+		top: 100px;
 	}
 
 	100% {
-		top: 50px;
+		top: -200px;
 	}
 }
 
@@ -45,21 +46,6 @@ h1 {
 	display: block;
 }
 
-.js-links-move {
-	x-webkit-animation: links-move 1s linear forwards;
-	position: fixed;
-	top: 50px;
-}
-
-@-webkit-keyframes links-move {
-	0% {
-		top: 5em;
-	}
-
-	100% {
-		top: 50px;
-	}
-}
 
 a:link {
 	color: #ffffff;
@@ -97,9 +83,12 @@ a {
 	padding: 20em 0 20em;
 	width: 100%;
 	background-color: #999999;
+	text-align: center;
 }
 
 .icons {
 	border-radius: 200px;
 	position: relative;
+	padding: 25px;
+
 }
