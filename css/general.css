@@ -5,9 +5,13 @@ body {
 	color: #ffffff;
 }
 
+.background1 {
+	background-color: #222222;
+	width: 100%;
+}
+
 .logosection {
 	padding: 25em 0 25em;
-	background-color: #222222;
 	width: 100%;
 }
 
@@ -15,10 +19,13 @@ h1 {
 	width: 300px;
 	margin-left: 25px;
 	float: left;
+	z-index: 3;
 }
 
 .logo {
 	position: relative;
+	padding-right: 5em;
+	z-index: 100;
 }
 
 .js-logo-move {
@@ -29,11 +36,11 @@ h1 {
 
 @-webkit-keyframes logo-move {
 	0% {
-		top: 100px;
+		top: 0px;
 	}
 
 	100% {
-		top: -200px;
+		top: -600px;
 	}
 }
 
@@ -44,15 +51,16 @@ h1 {
 	float: right;
 	position: relative;
 	display: block;
+	z-index: 5;
 }
 
 
 a:link {
-	color: #ffffff;
+	color: #aaa;
 	padding: 15px;
 }
 a:visited {
-	color: #ffffff;
+	color: #aaa;
 }
 a:active {
 	color: orange;
@@ -62,21 +70,25 @@ a {
 }
 
 .about {
-	padding: 10em 0 10em;
+	padding: 40em 0 15em;
 	background-color: #555555;
 }
 
 .about-par{
 	position: relative;
 	width: 250px;
-	margin-left: 25px;
-	
+	margin-left: 300px;
+}
+
+.portfolio-pieces {
+	padding: 12em 0 12em;
+	position: relative;
+	text-align: center;
+	z-index: -1;
 }
 
 .portfolio {
-	padding: 2em 0 2em;
-	position: relative;
-	margin-left: 15px;	
+	padding: 1em;
 }
 
 .contact {

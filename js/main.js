@@ -10,4 +10,4 @@ $about.waypoint(function (direction) {
  	} else {
 		$logo.removeClass('js-logo-move');
 	}
-}, {offset: '70%'});
+}, {offset: '50%'});
